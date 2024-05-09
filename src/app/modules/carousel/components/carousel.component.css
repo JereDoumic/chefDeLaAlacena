@@ -1,0 +1,16 @@
+.carousel-item img {
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: cover;
+  }
+  
+  .carousel-item p{
+    font-family: var(--fontText), sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--colorTextLight);
+  }
+  
+  .indicator{
+    font-size: 1.5rem;
+  }

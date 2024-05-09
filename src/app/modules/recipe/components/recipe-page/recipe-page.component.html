@@ -1,0 +1,22 @@
+<app-nav-bar></app-nav-bar>
+<section class="">
+  <div class="p-5  container d-flex justify-content-center align-items-center flex-column">
+    <h2 class="text-center pt-5">Recetas internacionales</h2>
+    <div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
+      <div *ngFor="let item of data" class="col">
+        <div class="card h-100">
+          <img src="{{item.image}}" class="card-img-top" alt="Food">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <a href="{{item.sourceUrl}}" target="_blank">Receta completa+</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Porciones = {{item.servings}}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>

@@ -1,0 +1,29 @@
+<app-nav-bar></app-nav-bar>
+<br><br><br><br>
+
+<section class="pt-5 section-search">
+  <div class=" p-5 search-container">
+    <div class="row">
+      <div class="col">
+        <form class="container search d-flex justify-content-center align-items-center  pb-5">
+          <label for="search" class="mx-3">Buscar</label>
+          <input autocomplete="off" id="search" class="form-control me-2 input-search" type="search" (input) = "search($event)" placeholder="Ingrese un ingrediente o el nombre de una receta en inglés..." aria-label="Search">
+        </form> 
+        <h2 class="text-center">Resultados de la busqueda...</h2>
+        <div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
+          <div *ngFor="let item of data.results" class="col">
+            <div class="card h-100">
+              <img src="{{item.image}}" class="card-img-top" alt="Food">
+              <div class="card-body">
+                <h5 class="card-title">{{item.title}}</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+</section>
+  
+<app-footer></app-footer>

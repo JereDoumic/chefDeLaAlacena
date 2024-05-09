@@ -1,0 +1,401 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "melon",
+      "email": "melon@gmail.com",
+      "password": "melon1234",
+      "comments": [],
+      "favoriteRecipe": [
+        7
+      ]
+    },
+    {
+      "id": "2",
+      "userName": "juli",
+      "email": "juli@gmail.com",
+      "password": "juli1234",
+      "comments": [
+        2
+      ],
+      "favoriteRecipe": [
+        8
+      ]
+    },
+    {
+      "id": "3",
+      "userName": "pipi",
+      "email": "pipi@gmail.com",
+      "password": "pipi1234",
+      "comments": null,
+      "favoriteRecipe": [
+        4,
+        3,
+        6,
+        2,
+        14,
+        8
+      ]
+    },
+    {
+      "id": "4",
+      "userName": "jere",
+      "email": "jere@mail.com",
+      "password": "jere1234",
+      "comments": null,
+      "favoriteRecipe": []
+    },
+    {
+      "id": "5",
+      "userName": "marrok",
+      "email": "marrok@mail.com",
+      "password": "marrok1234",
+      "comments": null,
+      "favoriteRecipe": []
+    },
+    {
+      "id": "6",
+      "userName": "caro",
+      "email": "caro@gmail.com",
+      "password": "caro1234",
+      "comments": null,
+      "favoriteRecipe": [
+        7,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "7",
+      "userName": "perro",
+      "email": "perro@gmail.com",
+      "password": "perro1234",
+      "comments": null,
+      "favoriteRecipe": [
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "8",
+      "userName": "gato",
+      "email": "gato@gmail.com",
+      "password": "gato1234",
+      "comments": [],
+      "favoriteRecipe": [
+        7,
+        4
+      ]
+    },
+    {
+      "id": "9",
+      "userName": "loro",
+      "email": "loro@gmail.com",
+      "password": "loro1234",
+      "comments": [],
+      "favoriteRecipe": [
+        7,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "10",
+      "userName": "hamster",
+      "email": "hamster@gmail.com",
+      "password": "hamster123",
+      "comments": null,
+      "favoriteRecipe": [
+        7,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "11",
+      "userName": "delfin",
+      "email": "delfin@gmail.com",
+      "password": "delfin1234",
+      "comments": [],
+      "favoriteRecipe": []
+    },
+    {
+      "id": "12",
+      "userName": "coballo",
+      "email": "coballo@gmail.com",
+      "password": "coballo123",
+      "comments": [],
+      "favoriteRecipe": [
+        1
+      ]
+    },
+    {
+      "id": "13",
+      "userName": "dani",
+      "email": "dani@gmail.com",
+      "password": "dani1234",
+      "comments": [],
+      "favoriteRecipe": [
+        1,
+        2,
+        7,
+        9
+      ]
+    },
+    {
+      "id": "14",
+      "userName": "e",
+      "email": "e@mail.com",
+      "password": "1111111111",
+      "comments": [],
+      "favoriteRecipe": []
+    },
+    {
+      "id": "15",
+      "userName": "melon",
+      "email": "melon@gmail.com",
+      "password": "melon1234",
+      "comments": [],
+      "favoriteRecipe": []
+    },
+    {
+      "id": "16",
+      "userName": "sandia",
+      "email": "sandia@gmail.com",
+      "password": "sandia1234",
+      "comments": [],
+      "favoriteRecipe": [
+        7,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "userName": "jere",
+      "email": "jere@gmail.com",
+      "password": "jeremias12",
+      "comments": [],
+      "favoriteRecipe": []
+    },
+    {
+      "id": 18,
+      "userName": "Ema",
+      "email": "ema@gmail.com",
+      "password": "ema12345",
+      "comments": [],
+      "favoriteRecipe": []
+    },
+    {
+      "id": 19,
+      "userName": "ema",
+      "email": "ema@gmail.com",
+      "password": "ema123456",
+      "comments": [],
+      "favoriteRecipe": []
+    }
+  ],
+  "recipe": [
+    {
+      "id": "1",
+      "name": "CANELONES DE VERDURA",
+      "instructions": "Poner en un recipiente la leche y los huevos, batir bien. Incorporar la harina, hasta que quede una mezcla homogénea y sin grumos. Calentar una sartén a fuego mínimo, cuando colocar un poco de manteca.",
+      "image": "../../assets/images/Recetas/canelones.jpg",
+      "url": "https://www.recepedia.com/es-ar/recetas/pasta/209558-canelones-de-verdura/",
+      "comments": [
+        1
+      ]
+    },
+    {
+      "id": "2",
+      "name": "PIZZA",
+      "instructions": "Mezclar la levadura y el agua en un recipiente. Agrega las 2 cucharadas de aceite vegetal, revuelve un poco con los dedos y comienza a incorporar la harina de trigo poco a poco. Agrega también la pizca de sal y de azúcar.",
+      "image": "../../assets/images/Recetas/pizza.jpg",
+      "url": "https://www.recetasgratis.net/receta-de-pizza-casera-31391.html",
+      "comments": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "3",
+      "name": "FLAN",
+      "instructions": "Lo primero que vamos a hacer es cascar nuestros 5 huevos en un bol y luego, vamos a agregar 100g de azúcar. Batimos un poco hasta romper el ligue de los huevos.",
+      "image": "../../assets/images/Recetas/flan.jpg",
+      "url": "https://www.paulinacocina.net/flan-casero-clasico/13997",
+      "comments": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": "4",
+      "name": "PANQUEQUES",
+      "instructions": "1. En un bowl grande tamizar la harina con el Bicarbonato de sodio Alicante y una pizca de sal. · 2. Luego, en otro bowl batir el huevo con la harina",
+      "image": "../../assets/images/Recetas/panqueques.jpg",
+      "url": "https://www.recetasgratis.net/receta-de-panqueques-super-faciles-de-hacer-51470.html",
+      "comments": [
+        4
+      ]
+    },
+    {
+      "id": "5",
+      "name": "SOPA DE VERDURAS",
+      "instructions": " Corta los vegetales que vas a usar. · Licua el tomate, cebolla y ajo con 1 taza de agua hasta que tenga consistencia lisa y no queden grumos.",
+      "image": "../../assets/images/Recetas/Sopa.jpg",
+      "url": "https://www.pizcadesabor.com/sopa-de-verduras/",
+      "comments": [
+        5
+      ]
+    },
+    {
+      "id": "6",
+      "name": "ARROZ CON CAMARONES",
+      "instructions": "En el aceite caliente, sofríe por 3 minutos los vegetales y los camarones, añade el arroz y los demás ingredientes, mezcla bien, cocina por 5 minutos más",
+      "image": "../../assets/images/Recetas/arrozCamarones.jpg",
+      "url": "https://elgourmet.com/recetas/arroz-con-camarones/",
+      "comments": [
+        6
+      ]
+    },
+    {
+      "id": "7",
+      "name": "WOK DE LOMO",
+      "instructions": "Corta el lomo de cerdo en tiras de 1-2 cm de grosor y salpimienta. Calienta una sartén a fuego medio-fuerte con un chorrito de aceite y añade el cerdo",
+      "image": "../../assets/images/Recetas/wokLomo.jpg",
+      "url": "https://elgourmet.com/recetas/wok-de-lomo/",
+      "comments": []
+    },
+    {
+      "id": "8",
+      "name": "CHOCOTORTA",
+      "instructions": "Batir el queso crema para ablandarlo, agregar el dulce de leche y batir bien hasta mezclar. Armado; Remojar las galletitas en café",
+      "image": "../../assets/images/Recetas/chocotorta.jpg",
+      "url": "https://www.paulinacocina.net/receta-chocotorta-original/21722",
+      "comments": []
+    },
+    {
+      "id": "9",
+      "name": "TIRAMISU",
+      "instructions": "Colocar el dulce de leche en un recipiente. BaAgregar el queso crema para ablandarlo, agregar el dulce de leche y batir bien hasta mezclar. Armado; Remojar las galletitas en",
+      "image": "../../assets/images/Recetas/tiramisu.jpg",
+      "url": "https://www.gourmet.cl/recetas/tiramisu/",
+      "comments": [
+        1
+      ]
+    },
+    {
+      "id": "10",
+      "name": "EMPANADAS",
+      "instructions": "Picar 1 kg de bola de lomo en cubitos y pasar por agua caliente. Reservar. Rehogar 1 kilo de cebolla y de cebolla de verdeo en una sartén hasta que esté dorada con grasa de cerdo. Añadir la carne blanqueada, condimentar con sal, pimentón, comino y ají molido a gusto y cocinar hasta que la carne esté lista. Dejar enfriar, añadir 3 huevos duros picados y la lata de arvejas. Dejar descansar en heladera.",
+      "image": "../../assets/images/Recetas/empanadas.jpg",
+      "url": "https://elgourmet.com/recetas/empanadas-2/",
+      "comments": []
+    },
+    {
+      "id": "11",
+      "name": "SANDWICH DE VACIO",
+      "instructions": " Cortar el vacío y deshilachar, reservar. En un bowl pisar las paltas y agregar ralladura y jugo de lima, sal, cebolla morada y pimientos en juliana, hojas de cilantro y el vacio. Mezclar bien y reservar. Abrir cada pancito tipo bolsillo y rellenar.Terminar con jugo de lima y salsa picante ",
+      "image": "../../assets/images/Recetas/sandwichDeVacio.jpg",
+      "url": "https://elgourmet.com/recetas/sandwich-de-vacio/",
+      "comments": []
+    },
+    {
+      "id": "12",
+      "name": "RISOTTO DE CHAMPIGNONES (RISOTO)",
+      "instructions": "Para empezar a hacer la receta fácil de risotto de champiñones, primero pela finamente la cebolla, limpia los champiñones para retirar toda la tierra y córtalos en trozos medianos, ya que al cocinarse se quedan más pequeños. Calienta un poco de aceite en una cazuela. Cuando esté caliente, añade la cebolla, deja pochar unos minutos y agrega los champiñones. Sofríe hasta que se queden los champiñones dorados.",
+      "image": "../../assets/images/Recetas/risottoDeChampignones.jpg",
+      "url": "https://www.recetasgratis.net/receta-de-risotto-de-champinones-74909.html",
+      "comments": []
+    },
+    {
+      "id": "13",
+      "name": "INFUSION DE JENGIBRE",
+      "instructions": "Picar en trozos no muy grandes (cuanto más troceado esté, más sabor liberará) y disponer en un cazo o una olla de 1 litro de capacidad. Añadir el agua, calentar y llevar a ebullición. Cuando rompa a hervir, cocer a temperatura media-baja durante 10 minutos, o 15 si queremos que sea más intenso.",
+      "image": "../../assets/images/Recetas/infusionJengibre.jpg",
+      "url": "https://www.directoalpaladar.com/recetas-de-cocteles-y-bebidas/como-hacer-infusion-jengibre-bebida-reconfortante-que-te-ayudara-a-cuidarte",
+      "comments": []
+    },
+    {
+      "id": "14",
+      "name": "COSMOPOLITAN",
+      "instructions": "Exprime la lima y cuélala. Hay quien prefiere utilizarlo sin colar, las dos formas son válidas. Si tienes coctelera genial, pero si no, puedes utilizar cualquier otro recipiente que puedas cerrar y agitar de cristal o metal.",
+      "image": "../../assets/images/Recetas/cosmopolitan.jpg",
+      "url": "https://www.abc.es/recetasderechupete/cosmopolitan-como-hacer-el-coctel-mas-cosmopolita-del-mundo/31571/#pasos",
+      "comments": []
+    },
+    {
+      "id": "15",
+      "name": "NEGRONI",
+      "instructions": "La fórmula más internacional y más conocida se compone de tres partes iguales de Ginebra, Vermut y Campari",
+      "image": "../../assets/images/Recetas/negroni.jpg",
+      "url": "https://www.paulinacocina.net/negroni-tradicional-en-3-pasos/27867",
+      "comments": []
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "users": [
+        2
+      ],
+      "text": "muy ricos canelones"
+    },
+    {
+      "id": "2",
+      "users": [
+        3
+      ],
+      "text": "Muy rica pizza"
+    },
+    {
+      "id": "3",
+      "users": [
+        4
+      ],
+      "text": "muy rico flan"
+    },
+    {
+      "id": "4",
+      "users": [
+        4
+      ],
+      "text": "Muy ricos panqueques"
+    },
+    {
+      "id": "5",
+      "users": [
+        6
+      ],
+      "text": "muy rica sopa"
+    },
+    {
+      "id": "6",
+      "users": [
+        7
+      ],
+      "text": "muy rico arroz"
+    },
+    {
+      "id": "7",
+      "users": [
+        7
+      ],
+      "text": "muy rico wok"
+    },
+    {
+      "id": "8",
+      "users": [
+        7
+      ],
+      "text": "muy rica chocotorta"
+    },
+    {
+      "id": "9",
+      "users": [
+        7
+      ],
+      "text": "muy rico tiramisu"
+    }
+  ]
+}

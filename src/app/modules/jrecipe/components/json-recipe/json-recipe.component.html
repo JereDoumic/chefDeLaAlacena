@@ -1,0 +1,23 @@
+<app-nav-bar></app-nav-bar>
+
+
+<div class="card-columns container pb-5 mt-5 container-recetas-json align-items-center">
+
+   
+    <div class="card bg-dark text-light card-container" *ngFor="let jrecipe of recipes">
+      <img src="{{jrecipe.image}}" class="card-img-top"  >
+      <div class="card-body">
+          <h3 class="card-title title-card-json mt-3 d-flex justify-content-start h4">{{jrecipe.name}}</h3>
+          <div class="card-comments" *ngIf="jrecipe.comments != null">
+            <h5>{{getText(jrecipe)}}</h5>
+          </div> 
+          
+          <a class="mt-4 text-warning" href="{{jrecipe.url}}" target="_blank">Receta Completa+</a>
+          
+          <span class="cursor p-3" (click)="addRecipe(jrecipe)"> 
+            <i [ngClass]="checkRecipe(jrecipe) === false ? 'fa-regular fa-heart' : 'fa-solid fa-heart'" ></i>
+          </span>
+      </div>
+  </div> 
+</div>
+<app-footer></app-footer>

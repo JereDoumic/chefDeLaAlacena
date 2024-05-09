@@ -1,0 +1,47 @@
+<app-nav-bar></app-nav-bar>
+<div class="login-container fondo d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+        <div class="glass">
+          <h2>Iniciar sesión</h2>
+      
+          <form  [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+        
+          <div class="form-group container">
+        
+            <div class="mb-3 container ">
+              <label class="form-label ">Email</label>
+              <input autocomplete="off" type="text" formControlName="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <span *ngIf="isValidField('email')" class="error-Message"> {{getErrorInField('email')}} </span>
+            </div>
+        
+            <div class="g-3 align-items-center">
+              <div class="col-auto">
+                <label class="col-form-label">Password</label>
+              </div>
+              <div class="col-auto">
+                <input type="password" formControlName="password"  class="form-control" maxlength="10" minlength="8">
+                <span *ngIf="isValidField('password')" class="error-Message"> {{getErrorInField('password')}} </span>
+              </div>
+              <div class="col-auto">
+                <span  class="form-text  mt-2 text-light"> Debe tener entre 8-10 caracteres. </span>
+              </div>
+            </div>
+            
+            <div class="d-flex justify-content-center">
+              <button type="submit" [disabled]="loginForm.invalid" class="login-button">Ingresar</button>
+            </div>
+          
+        </div>
+        
+        
+      </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>

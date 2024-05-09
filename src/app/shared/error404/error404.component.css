@@ -1,0 +1,29 @@
+.error404 {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.error404 p {
+    color: var(--colorText);
+    font-size: 1.2rem;
+}
+
+.error404 button {
+    margin-top: 20px;
+}
+
+.btn-error{
+    background-color: var(--colorPrimary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-error:hover{
+    background-color: var(--colorHover);
+    color: var(--colorTextHover);
+}

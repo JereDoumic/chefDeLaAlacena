@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex aling-items-center">
+  <div class="container-fluid">
+    <a class="navbar-brand nav d-flex align-items-center" ref="#">
+      <img src="./assets/images/logo.png" alt="Logo"  class="d-inline-block align-text-top logo mx-3">
+      <h1>Chef de la despensa</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active link-style-nav" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-style-nav" href="#" (click)="changeRoute($event, 'about-us')">Sobre nosotros</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link link-style-nav" href="#" (click)="changeRoute($event, 'recetas-internacionales')">Recetas internacionales</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <button class="nav-link link-style-nav" href="#" (click)="goSearch()">Buscar receta</button>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link link-style-nav"  (click) = "goNationalRecipes()">Recetas nacionales</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link link-style-nav"  (click) = "goFavoriteRecipe()">Mis recetas favoritas</a>
+        </li>
+        
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <button class="btn nav-btn me-3" (click) = "goRegister()">Register</button>
+        </li> 
+
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <button class="btn nav-btn me-3" (click) = "goLogin()">Login</button>
+        </li> 
+
+        <form class="d-flex">
+          <div *ngIf="isLoggedIn" class="d-flex align-items-center">
+            <button class="btn nav-btn" (click)="logout()" >Logout</button>
+          </div>
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>

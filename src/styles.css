@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --colorPrimary: #606C38;
+  --colorSecondary: #DC9732;
+  --colorAlert: #BD3434;
+  --colorHover:#B4CB6A;
+  --colorText: #010101;
+  --colorRecipes:#f3f1eee2 ;
+
+  --fontTitle: 'Pattaya';
+  --fontSubtitles: 'Raleway';
+  --fontText: 'Cabin';
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
